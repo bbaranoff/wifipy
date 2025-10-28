@@ -1,0 +1,2 @@
+date,bssid,oui_vendor,ssid,chan,bandwidth,bandwidth_mhz,beacon_int,rssi_dbm,ie_keys,rsn_ies,entropy_penalty
+2025-10-28 19:12:00,B8:E7:F3,Cisco,ASTRUM-Lab,6,HT/20,20,0.102,-67.8,"['RSNIE', 'SupportedRates', 'HTCapabilities']",[],42

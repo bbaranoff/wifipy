@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2025-10-28T19:12:00Z",            // ⭐ ISO 8601 (UTC conseillé)
+    "mac_addr": "B8:E7:F3:31:1E:0D",                // ⭐ BSSID
+    "vendor": "Cisco",                              
+    "ssid": "ASTRUM-Lab",                           // ⭐ SSID (chaîne, vide si caché)
+    "channel": "6",                                 // ⭐ "1".."165" selon régulation
+    "bandwidth": "HT/20",                           // ex: "HT/20", "HT/40", "VHT80"
+    "beacon_int": 0.102,                            // secondes (ex: 102 ms = 0.102)
+    "ie_info": {                                    // ⭐ IEs utiles, clés libres
+      "RSNIE": [
+        {"name": "AKM", "value": "PSK"},
+        {"name": "PairwiseCipher", "value": "CCMP"},
+        {"name": "GroupCipher", "value": "CCMP"}
+      ],
+      "SupportedRates": ["6", "12", "24"],
+      "HTCapabilities": {"ht": true, "sgi": true}
+    },
+    "rssis": {                                      // au moins un flux dRSSI
+      "all": [-67.8, -68.2, -69.1]
+    }
+  }
+]
